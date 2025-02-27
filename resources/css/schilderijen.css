@@ -1,0 +1,588 @@
+/*layout */
+* {
+    text-decoration: none
+}
+
+header {
+    background-color: black;
+    padding: 30px;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+"header header"
+"content content"
+"footer footer";
+    min-height: 100vh;
+}
+
+header {
+    grid-area: header;
+}
+
+.content {
+    grid-area: content;
+}
+
+footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    font-size: smaller;
+    padding: 10px;
+}
+
+.return {
+    color: white;
+    font-family: sans-serif;
+}
+
+footer {
+
+}
+
+.portfolio-link {
+    text-decoration: underline;
+    color: white;
+}
+
+.portfolio-link:hover {
+    color: white
+}
+
+.layout {
+    display: flex;
+}
+
+.return:hover {
+    font-size: small;
+}
+
+.titel {
+    padding-left: 15px;
+    font-size: xx-large;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.fullscreen img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.painting {
+    width: 500px;
+    height: 500px;
+}
+
+
+.paddingpainting {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.text {
+    padding-left: 50px
+}
+
+.contact-button {
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: rgb(3, 45, 30);
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    width: 240px;
+    margin-bottom: 10px;
+}
+
+.contact-button:hover { background-color: rgb(5, 60, 40); }
+
+
+.contact-button-text { display: flex;
+flex-direction: row;
+color: white;}
+
+.paintings-button-icon {
+    width: 12px;
+    padding-top: 2px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.tom {
+    width: 378px;
+    height: 453px;
+    object-fit: cover;
+}
+
+.tom:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+}
+
+.channel {
+    width: 188px;
+    height: 264px;
+}
+
+.channel:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+}
+
+.victor {
+    width: 188px;
+    height: 264px;
+}
+
+.victor:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.erena {
+    width: 188px;
+    height: 264px
+}
+
+.erena:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.valerie {
+    width: 188px;
+    height: 264px;
+}
+
+.valerie:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.kane {
+    width: 188px;
+    height: 264px;
+    object-fit: cover;
+}
+
+.kane:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.lanah {
+    width: 491px;
+    height: 491px
+}
+
+.lanah:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.nathalie {
+    width: 188px;
+    height: 188px;
+}
+
+.nathalie:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.yasmine {
+    width: 188px;
+    height: 188px;
+}
+
+.yasmine:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.lois {
+    width: 188px;
+    height: 264px;
+    object-fit: cover;
+}
+
+.lois:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.sadé {
+    width: 188px;
+    height: 264px;
+    object-fit: cover;
+}
+
+.sadé:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.hélène {
+    width: 264px;
+    height: 302px;
+}
+
+.hélène:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.malu {
+    width: 188px;
+    height: 188px;
+}
+
+.malu:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.zara {
+    width: 378px;
+    height: 453px;
+}
+
+.zara:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.suzan {
+    width: 226px;
+    height: 302px
+}
+
+.suzan:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.naomi {
+    width: 283px;
+    height: 378px;
+}
+
+.naomi:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+}
+
+.merel {
+    width: auto;
+    height: 302px;
+}
+
+.merel:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.asha {
+    width: 132px;
+    height: 189px;
+}
+
+.asha:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.lena {
+    width: 188px;
+    height: 264px;
+}
+
+.lena:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.esila {
+    width: 132px;
+    height: 189px;
+}
+
+.esila:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.jannes {
+    width: 188px;
+    height: 264px;
+}
+
+.jannes:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.laila {
+    width: 226px;
+    height: 302px;
+}
+
+.laila:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.abby {
+    width: 188px;
+    height: 264px;
+}
+
+.abby:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.farah {
+    width: 378px;
+    height: 453px;
+}
+
+.farah:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.lorena {
+    width: 283px;
+    height: 378px;
+}
+
+.lorena:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+.heather {
+    width: 188px;
+    height: 264px;
+}
+
+.heather:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+
+}
+
+@media screen and (max-width: 979px) {
+
+    .return:hover {
+        font-size: medium;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .tom {
+        width: 50%;
+        height: auto;
+    }
+
+    .channel {
+        width: 50%;
+        height: auto;
+    }
+
+    .victor {
+        width: 50%;
+        height: auto;
+    }
+
+    .erena {
+        width: 50%;
+        height: auto;
+    }
+
+    .valerie {
+        width: 50%;
+        height: auto;
+    }
+
+    .kane {
+        width: 50%;
+        height: auto;
+    }
+
+    .lanah {
+        width: 50%;
+        height: auto;
+    }
+
+    .nathalie {
+        width: 50%;
+        height: auto;
+    }
+
+    .yasmine {
+        width: 50%;
+        height: auto;
+    }
+
+    .lois {
+        width: 50%;
+        height: auto;
+    }
+
+    .sadé {
+        width: 50%;
+        height: auto;
+    }
+
+    .hélène {
+        width: 50%;
+        height: auto;
+    }
+
+    .malu {
+        width: 50%;
+        height: auto;
+    }
+
+    .zara {
+        width: 50%;
+        height: auto;
+    }
+
+    .suzan {
+        width: 50%;
+        height: auto;
+    }
+
+
+    .naomi {
+        width: 50%;
+        height: auto;
+    }
+
+    .merel {
+        width: 50%;
+        height: auto;
+    }
+
+    .asha {
+        width: 50%;
+        height: auto;
+    }
+
+    .lena {
+        width: 50%;
+        height: auto;
+    }
+
+    .esila {
+        width: 50%;
+        height: auto;
+    }
+
+    .jannes {
+        width: 50%;
+        height: auto;
+    }
+
+    .laila {
+        width: 50%;
+        height: auto;
+    }
+
+    .abby {
+        width: 50%;
+        height: auto;
+    }
+
+    .farah {
+        width: 50%;
+        height: auto;
+    }
+
+    .lorena {
+        width: 50%;
+        height: auto;
+    }
+
+    .heather {
+        width: 50%;
+        height: auto;
+    }
+
+    .return:hover {
+        font-size: medium;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Minimaal volledige hoogte van het scherm */
+    }
+
+    .content {
+        flex: 1; /* Zorgt ervoor dat de content de beschikbare ruimte opvult */
+    }
+
+    .paddingpainting {
+        padding-left: 0;
+    }
+
+    .text {
+        padding-left: 10px
+    }
+
+}
