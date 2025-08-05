@@ -1,7 +1,7 @@
 @extends('websitelayout.layout')
 
 @section('title',"")
-@section("homeActive","active")
+@section("home","active")
 
 @section('content')
     <div class="home-flex">

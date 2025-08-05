@@ -27,10 +27,10 @@
             </svg>
         </div>
             <ul class="navbar" id="mobile-menu">
-                <li><a class="nav" href="/">HOME</a></li>
-                <li><a class="nav" href="about-ingrid">OVER INGRID</a></li>
-                <li><a class="nav" href="paintings">SCHILDERIJEN</a></li>
-                <li><a class="nav" href="exposities">EXPOSITIES</a></li>
+                <li><a class="nav @yield('home')" href="/">HOME</a></li>
+                <li><a class="nav @yield('about')" href="about-ingrid">OVER INGRID</a></li>
+                <li><a class="nav @yield('paintings')" href="paintings">SCHILDERIJEN</a></li>
+                <li><a class="nav @yield('expo')" href="exposities">EXPOSITIES</a></li>
             </ul>
     </nav>
 

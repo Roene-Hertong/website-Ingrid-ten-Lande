@@ -2,7 +2,7 @@
 @section('title',"")
 @section('content')
     <h3 class="titel">Malu</h3>
-    <div class="layout paddingpainting"><img class="malu" src="/pictures/schilderijen/malu.JPG" id="maluImg"
+    <div class="layout paddingpainting"><img class="malu" src="/pictures/schilderijen/malu-paintings.JPG" id="maluImg"
                                              alt="Malu">
         <div class=text>
             <p><b>Afmeting:</b> 50 x 50 cm </p>

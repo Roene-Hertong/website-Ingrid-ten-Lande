@@ -3,7 +3,7 @@
 @section('content')
     <h3 class="titel">Kane</h3>
     <div class="layout paddingpainting">
-        <img class="kane" src="/pictures/schilderijen/kane.jpg" id="kaneImg"
+        <img class="kane" src="/pictures/schilderijen/kane.png" id="kaneImg"
                                              alt="Kane">
         <div class=text>
             <p><b>Afmeting:</b> 50 x 70 cm </p>

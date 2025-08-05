@@ -1,7 +1,7 @@
 @extends('websitelayout.layout')
 
 @section('title',"")
-@section("homeActive","active")
+@section("expo","active")
 
 @section('content')
 

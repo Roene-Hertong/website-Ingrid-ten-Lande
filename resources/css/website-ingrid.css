@@ -29,6 +29,16 @@ header {
     display: none;
 }
 
+.nav:hover {
+    text-decoration: underline;
+    font-weight: bold; /* optional: make active text bold */
+}
+
+.nav.active {
+    text-decoration: underline;
+    font-weight: bold; /* optional: make active text bold */
+}
+
 main {
     grid-area: content;
 }
@@ -109,14 +119,17 @@ p {
     font-variation-settings: "wdth" 20;
 }
 
-.image-container {  position: relative;
+.image-container {
+    position: relative;
     display: inline-block;
-    max-width: 100%;}
+    max-width: 100%;
+}
 
 .picture-ingrid {
     width: 500px;
     height: 700px;
-    margin-right: 25px;}
+    margin-right: 25px;
+}
 
 .paintings-button {
 
@@ -228,24 +241,14 @@ p {
     margin: 20px;
 }
 
-/*.gallery a {*/
-/*    display: block;*/
-/*    line-height: 0;*/
-/*    width: fit-content;*/
-/*    overflow: hidden;*/
-/*    float: left;*/
 
-/*}*/
 
 .gallery img {
-    width: 100%; /* Afbeelding neemt volledige breedte in */
-    /*aspect-ratio: 3 / 7; !* Verhouding voor een nette galerij *!*/
-    /* Zorgt ervoor dat de afbeelding netjes past zonder te vervormen */
-    border-radius: 5px; /* Optioneel: afgeronde hoeken */
+    width: 100%;
+    border-radius: 5px;
     transition: transform 0.3s ease;
     height: 100%;
     margin: 10px;
-
 }
 
 .gallery img:hover {

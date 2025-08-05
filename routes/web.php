@@ -49,6 +49,10 @@ $paintings = [
     'farah',
     'lorena',
     'heather',
+    'saidah',
+    'tiana',
+    'caren',
+    'virgil',
 ];
 
 foreach ($paintings as $painting) {

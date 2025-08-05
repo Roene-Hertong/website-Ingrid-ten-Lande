@@ -2,7 +2,7 @@
 @section('title',"")
 @section('content')
     <h3 class="titel">Zara</h3>
-    <div class="layout paddingpainting"><img class="zara" src="/pictures/schilderijen/zara.jpg" id="zaraImg"
+    <div class="layout paddingpainting"><img class="zara" src="/pictures/schilderijen/zara.png" id="zaraImg"
                                              alt="Zara">
         <div class=text>
             <p><b>Afmeting:</b> 100 x 120 cm </p>

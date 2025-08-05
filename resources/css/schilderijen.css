@@ -375,7 +375,44 @@ color: white;}
 .laila:hover {
     cursor: zoom-in;
     opacity: 0.7;
+}
+    .saidah {
+        width: 226px;
+        height: 302px;
+    }
 
+    .saidah:hover {
+        cursor: zoom-in;
+        opacity: 0.7;
+}
+.tiana{
+    width: 226px;
+    height: 302px;
+}
+
+.tiana:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+}
+
+.caren {
+    width: 226px;
+    height: 302px;
+}
+
+.caren:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
+}
+
+.virgil {
+    width: 226px;
+    height: 302px;
+}
+
+.virgil:hover {
+    cursor: zoom-in;
+    opacity: 0.7;
 }
 
 .abby {

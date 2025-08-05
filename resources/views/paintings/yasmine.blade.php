@@ -7,7 +7,7 @@
         <div class=text>
             <p><b>Afmeting:</b> 50 x 50 cm</p>
             <p><b>Materialen:</b> acrylverf op papier met zwarte lijst</p>
-            <p><b>&euro; 175,00</b></p></div>
+            <p><b> Verkocht </b></p></div>
     </div>
 @endsection
 

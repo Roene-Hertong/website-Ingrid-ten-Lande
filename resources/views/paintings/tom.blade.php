@@ -2,7 +2,7 @@
 @section('title',"")
 @section('content')
     <h3 class="titel">Tom</h3>
-    <div class="layout paddingpainting"><img class="tom" src="/pictures/schilderijen/tom.jpg" id="tomImg"
+    <div class="layout paddingpainting"><img class="tom" src="/pictures/schilderijen/tom.png" id="tomImg"
                                              alt="Tom">
         <div class=text>
             <p>

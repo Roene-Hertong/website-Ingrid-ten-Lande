@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let imageIds = ["channelImg", "kaneImg", "maluImg", "abbyImg", "ashaImg", "erenaImg", "esilaImg", "farahImg", "heatherImg", "hélèneImg", "jannesImg", "lailaImg", "lanahImg", "lenaImg", "loisImg", "lorenaImg", "merelImg", "naomiImg", "nathalieImg", "sadéImg", "suzanImg", "tomImg", "valerieImg", "victorImg", "yasmineImg", "zaraImg"];
+    let imageIds = ["channelImg", "kaneImg", "maluImg", "abbyImg", "ashaImg", "erenaImg", "esilaImg", "farahImg", "heatherImg", "hélèneImg", "jannesImg", "lailaImg", "lanahImg", "lenaImg", "loisImg", "lorenaImg", "merelImg", "naomiImg", "nathalieImg", "sadéImg", "suzanImg", "tomImg", "valerieImg", "victorImg", "yasmineImg", "zaraImg", "saidahImg", "tianaImg", "carenImg", "virgilImg"];
 
     imageIds.forEach(function (id) {
         let image = document.getElementById(id);

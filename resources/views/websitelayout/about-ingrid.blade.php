@@ -1,7 +1,8 @@
 @extends('websitelayout.layout')
-@section('about-me', 'active')
+@section('about', 'active')
 @section('title',"")
 @section('content')
+
     <div class="pageI">
         <div class="about-ingrid-mobile">
             <img class="picture" src="/pictures/about-ingrid.webp" alt="Foto van Ingrid Hertong">
