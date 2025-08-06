@@ -43,6 +43,5 @@
 
     &copy; Copyright 2025 Ingrid ten Lande / Realisatie door
     <a class="portfolio-link" target="_blank" href="https://roene-hertong.newdeveloper.nl/">Roene Hertong</a>
-    <p> test test test</p>
 </footer>
 </body>
